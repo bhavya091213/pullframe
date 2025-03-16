@@ -10,7 +10,7 @@ import { BlendFunction } from "postprocessing";
 import { Text } from "@react-three/drei";
 import bebes from "/fonts/BebasNeue-Regular.ttf?url";
 import american from "/fonts/AmericanCaptain-MdEY.otf?url";
-import { Link, Navigate, useNavigate } from "react-router";
+import { useNavigate } from "react-router";
 
 const WaveShaderMaterial = shaderMaterial(
   { time: 0 },
