@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /* Font Families */
+  --font-display: "Bebas Neue", sans-serif;
+  --font-body: "Roboto Condensed", sans-serif;
+
+  /* Colors */
+  --color-primary: oklch(50.0% 0.23 10); /* #D52941 */
+  --color-secondary: oklch(40.0% 0.22 350); /* #990D35 */
+  --color-tertiary: oklch(85.0% 0.13 85); /* #FCD581 */
+  --color-white-1: oklch(100% 0 0); /* #FFFFFF */
+  --color-white-2: oklch(98.0% 0.01 42); /* #FFF8E8 */
+  --color-black: oklch(12.0% 0 0); /* #1C1C1C */
+
+  /* Font Sizes (converted to rem) */
+  --font-massive: 6rem; /* 96px */
+  --font-title: 4rem; /* 64px */
+  --font-h2: 2rem; /* 32px */
+  --font-paragraph: 1.25rem; /* 20px */
+
+  /* Letter Spacing */
+  --tracking-default: 0%;
+
+  /* Line Height */
+  --leading-default: 1.2;
+
+  /* Paragraph Spacing (converted to rem) */
+  --paragraph-spacing-massive: 6rem; /* 96px */
+  --paragraph-spacing-title: 4rem; /* 64px */
+  --paragraph-spacing-h2: 2rem; /* 32px */
+  --paragraph-spacing-p1: 1.25rem; /* 20px */
+  --paragraph-spacing-p2: 1.25rem; /* 20px */
+}
+
+
+
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+  /*
+  background-image: url("/gradient.png");
+  background-repeat: fill;
+
+  background-repeat: no-repeat; 
+  background-size: cover; */
+
+}
